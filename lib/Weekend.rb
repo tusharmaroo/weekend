@@ -1,4 +1,5 @@
 require "Weekend/version"
+require 'date'
 
 module Weekend
     # Your code goes here...

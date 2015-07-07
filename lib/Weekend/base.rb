@@ -25,7 +25,7 @@ class Weekend::Base
     end
 
     #Generates methods like no_of_sundays, no_of_mondays etc
-    ["Sunday", "Monday", "Tuesday","Wednesday","Thrusday","Friday","Saturday"].each_with_index do |day,index|
+    ["Sunday", "Monday", "Tuesday","Wednesday","Thursday","Friday","Saturday"].each_with_index do |day,index|
       define_method("no_of_#{day.downcase}s") { |start_date,end_date| result(start_date,end_date,[index]).count }
     end
   end

@@ -11,7 +11,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = %q{Gem for basic but helpful week days related queries.}
   spec.description   = %q{}
-  spec.homepage      = "http://www.tusharmaroo.com"
+  spec.homepage      = "https://github.com/tusharmaroo/weekend"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0").reject { |f| f.match(%r{^(test|spec|features)/}) }
